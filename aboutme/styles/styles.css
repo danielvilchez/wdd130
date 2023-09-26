@@ -1,8 +1,12 @@
+/* styles.css */
+
+/* Estilos para el párrafo con la clase "main-para" */
 .main-para {
     font-size: 1.5em;
     line-height: 1.5em;
 }
 
+/* Estilos para el enlace con el ID "active" */
 #active {
     background-color: white;
     color: steelblue;
