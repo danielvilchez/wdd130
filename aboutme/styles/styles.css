@@ -24,7 +24,7 @@ nav, footer {
 main p {
     width: 80%;
     margin: 0 auto;
-    /* Puedes agregar 'text-align: center;' si lo deseas */
+    text-align:center;
 }
 
 /* Eliminar bordes */
