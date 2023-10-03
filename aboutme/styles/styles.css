@@ -1,13 +1,33 @@
-/* styles.css */
-
-/* Estilos para el párrafo con la clase "main-para" */
-.main-para {
-    font-size: 1.5em;
-    line-height: 1.5em;
+/* Establecer estilos para todos los elementos */
+* {
+    border: 2px solid blue;
 }
 
-/* Estilos para el enlace con el ID "active" */
-#active {
-    background-color: white;
-    color: steelblue;
+/* Estilos para imágenes */
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 }
+
+/* Estilos para el encabezado */
+h1 {
+    text-align: center;
+}
+
+/* Estilos para la navegación y el pie de página */
+nav, footer {
+    text-align: center;
+}
+
+/* Estilos para párrafos dentro del contenido principal */
+main p {
+    width: 80%;
+    margin: 0 auto;
+    /* Puedes agregar 'text-align: center;' si lo deseas */
+}
+
+/* Eliminar bordes */
+/* * {
+    border: none;
+} */
