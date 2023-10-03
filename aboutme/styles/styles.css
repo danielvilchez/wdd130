@@ -44,6 +44,8 @@ footer p {
     margin: 20px auto;
 }
 
+/*Cambiemos el fondo y el color de fuente de los enlaces de nuestro menú cuando el usuario pasa el cursor sobre ellos. */
+/*Esta será una regla nueva, no una adición a ninguna regla existente. */
 a:hover {
     background-color: white;
     color: steelblue;
