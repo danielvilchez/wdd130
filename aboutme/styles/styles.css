@@ -1,4 +1,4 @@
-/* Establecer estilos para todos los elementos */
+/* Establecer estilos para todos los elementos, incluyendo bordes */
 * {
     border: 2px solid blue;
 }
@@ -27,7 +27,24 @@ main p {
     text-align:center;
 }
 
-/* Eliminar bordes */
+/* Eliminar bordes para todos los elementos */
+/* Puedes activar o desactivar esta sección según tus necesidades */
 /* * {
     border: none;
 } */
+
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
