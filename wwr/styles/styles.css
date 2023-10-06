@@ -7,3 +7,11 @@ header {
 nav a:hover {
     background-color: black;
 }
+
+p {
+    margin: 35px;
+}
+
+.icon {
+    width: 80px;
+}
