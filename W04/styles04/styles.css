@@ -1,42 +1,27 @@
-/* Establece el fondo rosado */
+/* Estilos generales para centrar el contenido y establecer el color de fondo */
 body {
-    background-color: pink; /* Cambia el color de fondo a rosa */
-    color: white; /* Cambia el color del texto para que sea visible en el fondo rosa */
-    text-align: center; /* Centra el texto en el cuerpo de la página */
-}
-
-/* Centra el encabezado h1 */
-h1 {
     text-align: center;
+    background-color: #333; /* Color de fondo oscuro */
+    color: white; /* Color de texto predeterminado en blanco */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina el relleno predeterminado */
 }
 
-/* Centra el encabezado h2 */
-h2 {
-    text-align: center;
-}
-
-/* Estilos para el párrafo de cita */
-p {
-    font-style: italic;
-    text-align: center;
-}
-
-/* Estilos para la lista desordenada */
+/* Estilo para la lista no ordenada */
 ul {
-    text-align: center;
     list-style-type: none;
-    padding: 0;
+    padding-left: 0; /* Elimina el relleno predeterminado de la lista */
+    display: flex; /* Utiliza el modelo de caja flexible para crear columnas */
+    flex-direction: column; /* Alinea los elementos en columnas */
+    align-items: flex-start; /* Alinea los elementos a la izquierda de cada columna */
 }
 
-/* Establece el ancho máximo para la imagen y la centra */
-img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%; /* Ajusta el tamaño de la imagen al ancho del contenedor */
+/* Estilo para los elementos de lista enumerados del 1 al 4 */
+ul li:nth-child(-n+4) {
+    color: black; /* Color de texto negro para elementos 1 al 4 */
 }
 
-/* Estilos para los elementos de la lista */
-ul li {
-    color: black; /* Cambia el color del texto a negro */
-    text-align: left; /* Alinea el texto de la lista a la izquierda */
+/* Estilos para los encabezados */
+h1, h2 {
+    color: white; /* Color de texto predeterminado en blanco */
 }
