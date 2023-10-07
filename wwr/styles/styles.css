@@ -1,3 +1,22 @@
+#hero-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#hero-box>img{
+    max-width: 100%;
+    width: 2002px;
+    height: 1002px;
+}
+
+.centrar{
+    margin:auto;
+    display:block;
+}
+
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
