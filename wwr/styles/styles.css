@@ -11,10 +11,9 @@
     height: 1002px;
 }
 
-.centrar{
+/*.centrar{
     margin:auto;
-    display:block;
-}
+}*/
 
 
 #content{
@@ -115,6 +114,9 @@ footer a:hover{
 
 .icon {
     width: 80px;
+    height : 80px;
+    display: inline-block;
+
 }
 
 nav a{
