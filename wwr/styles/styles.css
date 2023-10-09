@@ -4,17 +4,11 @@
     justify-content: center;
 }
 
-
 #hero-box>img{
     max-width: 100%;
     width: 2002px;
     height: 1002px;
 }
-
-/*.centrar{
-    margin:auto;
-}*/
-
 
 #content{
     max-width: 1600px;
@@ -23,6 +17,7 @@
 .texto-centrado{
     text-align: center;
 }
+
 #background {
     height: 725px;
     background-color: #F2D272;
@@ -30,6 +25,7 @@
 
 body {
     background-color: #fcfbfb; 
+    font-family: Georgia, serif; /* Fuente para el cuerpo del sitio */
 }
 
 header {
@@ -147,7 +143,3 @@ h1 {
     margin: 50px 0;
     font-family: Tahoma, sans-serif; /* Fuente para el título (h1) */
 }
-
-body {
-    font-family: Georgia, serif; /* Fuente para el cuerpo del sitio */
-  }

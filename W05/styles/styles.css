@@ -1,0 +1,38 @@
+/* Estilos para el cuerpo de la página */
+body {
+    background-color: #808080; /* Establece el color de fondo del cuerpo en gris (#808080) */
+    margin: 0; /* Elimina cualquier margen exterior */
+    padding: 0; /* Elimina cualquier relleno interior */
+}
+
+/* Estilos para la imagen en la sección principal */
+.main-section img {
+    width: 100%; /* Establece el ancho de la imagen principal al 100% del contenedor */
+    height: auto; /* Ajusta automáticamente la altura para mantener la proporción */
+}
+
+/* Estilos para la sección de imágenes circulares en la parte inferior */
+.image-section {
+    text-align: center; /* Centra el contenido horizontalmente en la sección */
+    padding: 50px 0; /* Agrega relleno de 50px arriba y abajo de la sección */
+}
+
+/* Estilos para los círculos que contienen las imágenes */
+.circle {
+    display: inline-block; /* Hace que los círculos sean elementos en línea y puedan aparecer uno al lado del otro */
+    width: 200px; /* Establece el ancho de los círculos en 200px (puedes cambiar este valor) */
+    height: 200px; /* Establece la altura de los círculos en 200px (puedes cambiar este valor) */
+    border-radius: 50%; /* Crea bordes redondeados para dar forma de círculo */
+    margin: 0 20px; /* Agrega un margen de 20px a los lados de los círculos */
+    overflow: hidden; /* Oculta cualquier contenido que se desborde del círculo */
+    border: 5px solid #333; /* Agrega un borde gris oscuro alrededor del círculo */
+}
+
+/* Estilos para las imágenes dentro de los círculos */
+.circle img {
+    max-width: 100%; /* Asegura que la imagen se ajuste dentro del círculo */
+    max-height: 100%; /* Asegura que la imagen se ajuste dentro del círculo */
+    width: auto; /* Ajusta automáticamente el ancho de la imagen para mantener la proporción */
+    height: auto; /* Ajusta automáticamente la altura de la imagen para mantener la proporción */
+}
+
