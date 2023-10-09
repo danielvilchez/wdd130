@@ -50,6 +50,7 @@ nav a:hover {
 
 .msg{
     background-color: #fcfbfb;
+    line-height: 1.5em;
 }
 
 footer{
@@ -70,6 +71,7 @@ nav a:hover {
 .home-title{
     background-color: #021859;
     color: #d9c2a3;
+    font-size: 2em;    
 }
 
 h4{
@@ -141,3 +143,11 @@ footer p {
     font-size: 1.2em;
 }
 
+h1 {
+    margin: 50px 0;
+    font-family: Tahoma, sans-serif; /* Fuente para el título (h1) */
+}
+
+body {
+    font-family: Georgia, serif; /* Fuente para el cuerpo del sitio */
+  }
