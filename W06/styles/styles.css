@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    height: 100%;
+}
+
+.grid {
+    flex: 1;
+    background: gray;
+}
