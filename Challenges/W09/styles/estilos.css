@@ -1,0 +1,13 @@
+.image-container {
+    text-align: center; /* Centrar la imagen horizontalmente */
+}
+
+.image-container img {
+    display: block; /* Hacer que la imagen sea un elemento de bloque */
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+    max-width: 100%; /* Ajustar el ancho de la imagen al contenedor si es necesario */
+}
+
+h1 {
+    text-align: center; /* Centrar el encabezado horizontalmente */
+}
