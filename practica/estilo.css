@@ -1,0 +1,93 @@
+/*
+Css grid para el contenido
+Flexbox para el menu o cosas sencillas para alinear
+*/
+body{
+    display : grid;
+    height:100vh;
+    grid-template-rows : auto 1fr auto;
+    }
+    
+    header,footer,.container{
+    display : flex;  
+    justify-content: center;
+    align-items:center;
+    }
+    
+    header{
+      background-color:#385170;
+      padding:20px;
+    }
+    
+    .container{
+     background-color: #ececec;
+     padding :20px;
+      /* cuando las propiedades de flexbox afecten a otras etiquetas*/
+     display:block;
+    }
+    
+    .container h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px; 
+    color: #2a3f5f; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: bold; 
+    text-shadow: 1px 1px 2px #aaa; 
+    }
+    
+    
+    footer{
+      background-color: #142d4c;
+      padding:10px;
+    }
+    
+    nav ul{
+      display:flex;
+      list-style:none;
+      justify-content: center;
+      padding : 0;
+    }
+    
+    nav ul li{
+      margin:0 10px;
+    }
+    
+    nav ul li a{
+      text-decoration:none;
+      color:white;
+    }
+    
+    .grid{
+     display:grid; 
+     grid-template-columns:repeat(2,1fr);
+     grid-template-rows:repeat(2,1fr);
+     gap:20px; 
+    }
+    
+    .item{
+      background-color: #9fd3c7;
+      padding: 15px;
+      text-align:center;
+      border:2px solid #ccc;
+    }
+    
+    .item img{
+      width:250px;
+      height:250px;
+      border-radius:50px;
+      object-fit:cover;
+      margin-bottom: 15px;
+    }
+    
+    .subtitulos{
+      color: #2a3f5f; 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+      font-weight: bold; 
+      text-shadow: 1px 1px 2px #aaa; 
+    }
+    
+    p{
+      color: red;
+      font-size: 15px;
+    }
