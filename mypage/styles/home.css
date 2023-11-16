@@ -49,10 +49,6 @@ h1 {
     /* Fuente para el título (h1) */
 }
 
-h2 {
-    margin: 0;
-}
-
 h4 {
     /* background-color: #79CFD9;*/
     color: #021859;
@@ -192,4 +188,12 @@ main section img {
     margin-bottom: 40px;
     grid-column: 1 / 11;
     grid-row: 4 / 9;
+    width: 90%;
+    height: 60%;
+}
+
+.msg{
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    color: #123e59;
 }
