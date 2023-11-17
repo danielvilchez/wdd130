@@ -118,7 +118,9 @@ footer.social img {
 
 /*Clases */
 .logo {
-    width: 70px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 20%;
 }
 
 
@@ -196,4 +198,5 @@ main section img {
     text-align: center;
     font-family: "Courier New", Courier, monospace;
     color: #123e59;
+    font-size: 30px;
 }
