@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Rock+Salt&display=swap');
+
 body {
     /*background-color: #fcfbfb;*/
     font-family: Raleway, Arial, sans-serif;
@@ -133,6 +135,7 @@ footer.social img {
 .texto-centrado {
     text-align: center;
     padding-bottom: 30px;
+    font-family: Playpen Sans , Helvetica, sans-serif;
 }
 
 .imagen1-card {
@@ -196,7 +199,7 @@ main section img {
 
 .msg{
     text-align: center;
-    font-family: "Courier New", Courier, monospace;
+    font-family: Playpen Sans , Helvetica, sans-serif;
     color: #3E688C;
     font-size: 30px;
 }
