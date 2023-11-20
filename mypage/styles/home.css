@@ -11,13 +11,14 @@ header {
     background-color: #a22727;
     display: grid;
     grid-template-columns: 150px auto;
-    margin: 40px;
+    margin: 40px; 
 }
 
 nav {
     display: flex;
     justify-content: space-around;
     font-family: serif;
+    color: #F1F1F1;
 }
 
 nav a:hover {
@@ -25,10 +26,8 @@ nav a:hover {
 }
 
 nav a {
-    /*background-color: #C5D1D9;*/
-    color: #d9c2a3;
     text-align: center;
-    color: #fcfbfb;
+    color: #F1F1F1;
     text-decoration: none;
     padding: 35px;
 }
@@ -127,6 +126,7 @@ footer.social img {
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    color: #155995;
 }
 
 
@@ -197,6 +197,6 @@ main section img {
 .msg{
     text-align: center;
     font-family: "Courier New", Courier, monospace;
-    color: #123e59;
+    color: #3E688C;
     font-size: 30px;
 }
