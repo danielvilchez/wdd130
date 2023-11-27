@@ -2,11 +2,10 @@
 
 body {
     /*background-color: #fcfbfb;*/
-    font-family: Raleway, Arial, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
-    font-family: "Courier New", Courier, monospace;
+    font-family: Playpen Sans , Helvetica, sans-serif;
 }
 
 header {
@@ -19,7 +18,7 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
-    font-family: serif;
+    font-family: Playpen Sans , Helvetica, sans-serif;
     color: #F1F1F1;
 }
 
