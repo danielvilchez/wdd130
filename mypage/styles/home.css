@@ -27,8 +27,9 @@ nav a:hover {
 }
 
 nav a {
+    color: #d9c2a3;
     text-align: center;
-    color: #F1F1F1;
+    color: #fcfbfb;
     text-decoration: none;
     padding: 35px;
 }
@@ -201,4 +202,35 @@ main section img {
     font-family: Playpen Sans , Helvetica, sans-serif;
     color: #3E688C;
     font-size: 30px;
+}
+
+/* Nuevos Estilos para Celular*/
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #background {
+        display: none;
+    }
+    
+    footer {
+        margin-top: 25px;
+    }
 }
