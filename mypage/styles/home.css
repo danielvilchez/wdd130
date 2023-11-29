@@ -91,6 +91,7 @@ footer.social img {
 }
 
 /*Estilos para los id's*/
+/*
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -111,7 +112,7 @@ footer.social img {
     width: 100%;
     height: 80%;
 }
-
+*/
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -193,8 +194,8 @@ main section img {
     margin-bottom: 40px;
     grid-column: 1 / 11;
     grid-row: 4 / 9;
-    width: 90%;
-    height: 60%;
+    width: 80%;
+    height: 40%;
 }
 
 .msg{
@@ -210,6 +211,29 @@ main section img {
     justify-self: center;
     align-self: center;
 }
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #a22727;
+    color: #F1F1F1;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+/* Styles for h4 */
+h4{
+    font-family: Playpen Sans , Helvetica, sans-serif;
+    color: #F1F1F1;
+}
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
