@@ -10,7 +10,6 @@ body {
 img {
   display: block;
   margin: 0 auto;
-  width: auto;
 }
 h1, h2, h3 {
   font-family: "Rock Salt";
@@ -69,6 +68,10 @@ nav a:hover {
   color: #3E688C;
   padding: 1.5em;
   color: #F1F1F1;
+}
+
+.img{
+  width: 80%;
 }
 
 /* Container para columnas y filas */
