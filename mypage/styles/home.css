@@ -201,7 +201,12 @@ main section img {
     font-size: 30px;
 }
 
-
+/* Nuevos Estilos para Celular*/
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
 
 /* Container holding the image and the text */
 .container {
