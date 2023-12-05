@@ -73,7 +73,7 @@ nav a:hover {
   color: #F1F1F1;
 }
 
-/* Añdir grid para columnas y filas*/
+/* Añadir grid para columnas y filas*/
 .container {
   display: grid;
   grid-template-columns: 2fr;
