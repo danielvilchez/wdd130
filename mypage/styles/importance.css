@@ -10,6 +10,7 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  width: auto;
 }
 h1, h2, h3 {
   font-family: "Rock Salt";
